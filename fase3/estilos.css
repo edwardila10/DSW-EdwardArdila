@@ -1,0 +1,22 @@
+header{
+    background-color: blanchedalmond;
+    
+ }
+nav{background-color: beige;
+
+}
+section{
+    display: grid;
+}
+
+ article{background-color: antiquewhite;
+}
+
+ aside{ background-color: bisque;
+}
+
+footer{background-color: blanchedalmond;
+    color: brown;
+    text-align: center;
+
+}
