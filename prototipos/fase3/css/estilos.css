@@ -1,0 +1,40 @@
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+header{
+    background-color: beige;  
+ }
+.contenidos{
+    background-color: blanchedalmond;
+    grid-column:  1/4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.lateral{
+    background-color: bisque;
+    grid-column:  4/5 ;
+}
+#articulo1{
+    background-color: blanchedalmond;
+}
+nav{background-color: white;
+}
+section{
+    display: grid;
+}
+ article{background-color: antiquewhite;
+}
+
+ aside{ background-color: bisque;
+}
+
+footer{background-color: blanchedalmond;
+    color: brown;
+    text-align: center;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
